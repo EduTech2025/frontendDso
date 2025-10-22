@@ -1,6 +1,6 @@
 // /app/services/page.tsx
 import { Suspense } from 'react';
-import ServicesPageContent from '@/services/ServicePageContent';
+import ServicesPageContent from './ServicePageContent';
 
 export default function ServicesPage() {
   return (
