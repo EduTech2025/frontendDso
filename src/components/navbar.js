@@ -73,7 +73,7 @@ export default function Navbar({ animate }) {
                 >
                   {item.name}
                 </Link>
-                <div className="absolute left-0 mt-2 w-56 bg-[#1a1a1a] text-white rounded-xl shadow-xl opacity-0 group-hover:opacity-100 invisible group-hover:visible transition duration-200 z-50">
+                <div className="absolute left-0 w-56 bg-[#1a1a1a] text-white rounded-xl shadow-xl opacity-0 group-hover:opacity-100 invisible group-hover:visible transition duration-200 z-50">
                   {serviceItems.map((service) => (
                     <Link
                       key={service.name}
