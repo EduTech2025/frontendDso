@@ -107,9 +107,9 @@ export default function Home() {
       {/* <ProductCarousel /> */}
 
       {/* Team Section */}
-      <section className="py-12 px-4 sm:px-6 md:px-10 lg:px-20 bg-black text-white">
+      {/* <section className="py-12 px-4 sm:px-6 md:px-10 lg:px-20 bg-black text-white">
         <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-12">Meet the Team</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-12">Meet the Team</h2> */}
 
           {/* CEO Card */}
           {/* <div className="flex justify-center mb-12">
@@ -142,8 +142,8 @@ export default function Home() {
               />
             ))}
           </div> */}
-        </div>
-      </section>
+        {/* </div>
+      </section> */}
     </main>
   );
 }
