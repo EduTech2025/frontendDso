@@ -112,7 +112,7 @@ export default function Home() {
           <h2 className="text-3xl sm:text-4xl font-bold mb-12">Meet the Team</h2>
 
           {/* CEO Card */}
-          <div className="flex justify-center mb-12">
+          {/* <div className="flex justify-center mb-12">
             {team.slice(0, 1).map((member, index) => (
               <GlassyProfileCard
                 key={index}
@@ -125,7 +125,7 @@ export default function Home() {
                 email={member.email}
               />
             ))}
-          </div>
+          </div> */}
 
           {/* Other Members */}
           {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8">
