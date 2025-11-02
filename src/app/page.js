@@ -128,7 +128,7 @@ export default function Home() {
           </div>
 
           {/* Other Members */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8">
+          {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8">
             {team.slice(1).map((member, index) => (
               <GlassyProfileCard
                 key={index + 1}
@@ -141,7 +141,7 @@ export default function Home() {
                 email={member.email}
               />
             ))}
-          </div>
+          </div> */}
         </div>
       </section>
     </main>
